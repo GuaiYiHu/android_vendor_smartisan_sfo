@@ -17,7 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/smartisan/sfo/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/smartisan/sfo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/sfo/proprietary/vendor/etc/sensor_def_qcomdev.conf:system/vendor/etc/sensor_def_qcomdev.conf \
+    vendor/smartisan/sfo/proprietary/vendor/etc/thermal-engine-8974.conf:system/vendor/etc/thermal-engine-8974.conf \
     vendor/smartisan/sfo/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_asd.so:system/vendor/lib/libarcsoft_asd.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_night_shot.so:system/vendor/lib/libarcsoft_night_shot.so \
@@ -66,7 +68,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so
+    vendor/smartisan/sfo/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
@@ -124,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
-    vendor/smartisan/sfo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/sfo/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/smartisan/sfo/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/smartisan/sfo/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -206,8 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
