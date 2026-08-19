@@ -23,15 +23,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/smartisan/sfo/proprietary/vendor/etc/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_qcomdev.conf \
     vendor/smartisan/sfo/proprietary/vendor/etc/thermal-engine-8974.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8974.conf \
-    vendor/smartisan/sfo/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8974.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_asd.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_panorama_burstcapture.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_pet_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_pet_detection.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/smartisan/sfo/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensors.msm8974.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_beauty_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_shot.so \
