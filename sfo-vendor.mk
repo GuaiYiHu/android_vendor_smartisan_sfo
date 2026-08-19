@@ -18,6 +18,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/smartisan/sfo
 
 PRODUCT_COPY_FILES += \
+    vendor/smartisan/sfo/proprietary/bin/isp_write:$(TARGET_COPY_OUT_VENDOR)/bin/isp_write \
+    vendor/smartisan/sfo/proprietary/etc/firmware/RS_M10MO_F.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/RS_M10MO_F.fw \
+    vendor/smartisan/sfo/proprietary/etc/firmware/RS_M10MO_L.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/RS_M10MO_L.fw \
     vendor/smartisan/sfo/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/smartisan/sfo/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/smartisan/sfo/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
