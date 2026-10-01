@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/smartisan/sfo/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensors.msm8974.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libbmc050.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbmc050.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libarcsoft_beauty_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_shot.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_common.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_default_video.so \
